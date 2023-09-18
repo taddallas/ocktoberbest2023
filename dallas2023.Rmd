@@ -1,0 +1,249 @@
+---
+title: "Using GitHub classroom to enhance student engagement and learning"
+author: "Tad Dallas"
+theme: "cosmo"
+highlight: "pygments"
+output: 
+  ioslides_presentation:
+    logo: logo.png
+---
+
+<style type="text/css">
+.main-container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+```{r setup, include=FALSE} 
+knitr::opts_chunk$set(warning = FALSE, message = FALSE) 
+```
+
+
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+
+
+
+## What is `git` used for? `r fa("github", fill='dodgerblue')`
+
+<div class="columns-2">
+  ![](figs/whyVC.png){width="100%"}
+
+  - Version control
+  - Keep files organized
+  - Know where your files are 
+  - Be able to jump between file versions 
+</div>
+
+
+
+
+
+## What is GitHub? 
+
+<div class="columns-2">
+  ![](figs/github.png){width="100%"}
+
+  - Online platform for `git` projects
+  - Enables code collaboration, issue tracking, etc.
+  - Really great teaching tool!
+</div>
+
+
+
+
+
+
+
+
+## How does GitHub Classroom help me teach? 
+
++ I try to be [incredibly open with my materials and approach](https://ecoinformatix.github.io/syllabus/)
+
++ For programming classes, I need to:
+  + teach <span style="color: forestgreen;"> proper version control </span>
+  + see where students <span style="color: firebrick;"> struggle </span>
+  + provide <span style="color: dodgerblue;"> timely feedback </span>
+
+
+
+
+
+
+
+## How can GitHub be used in the classroom? 
+
++ All course material, including the website itself, on GitHub
++ Students (and anyone) has access
++ Allows for posting of code, text, video, etc. etc. 
++ ADA compliant (output lecture and code in multiple formats)
+
+
+
+
+
+
+
+
+
+## What issues does the use of GitHub address? 
+
++ A history of your courses taught
++ All your materials in one place
++ Clear deadlines 
++ Track student progress 
++ Provide immediate automated feedback
++ Gives instructor a look at muddy points 
+
+
+
+
+---
+
+### A <span style="color: brown;"> history </span> of your courses taught
+
+```{r, echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("figs/classroomOverview.png")
+```
+
+
+
+
+---
+
+### All your materials <span style="color: forestgreen;"> in one place  </span>
+
+```{r, echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("figs/assignmentsPage.png")
+```
+
+
+
+
+
+
+
+
+---
+
+### Clear <span style="color: purple;"> deadlines </span>
+
+```{r, echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("figs/instructorViewAssignment1.png")
+```
+
+
+
+
+
+
+
+---
+
+### Track student <span style="color: dodgerblue;"> progress </span>
+
+```{r, echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("figs/assignmentCommitHistory.png")
+```
+
+
+
+
+
+
+--- 
+
+### Provide immediate <span style="color: red;"> automated feedback </span>
+
+
+```{r, echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("figs/unitTestFeedback.png")
+```
+
+
+
+
+
+
+
+
+--- 
+
+### Gives instructor a look at `muddy points` 
+
+```{r, echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("figs/identifyPointsOfConfusion.png")
+```
+
+
+
+
+
+
+
+
+
+---
+
+### https://github.com/ecoinformatix/ecoinformatix.github.io
+
+
+```{r, echo=FALSE, out.width="70%", fig.align="center"}
+knitr::include_graphics("figs/codeForWebsite.png")
+```
+
+
+
+
+
+
+
+
+
+
+
+## This is not limited to ...
+
++ coding courses!
+  + Students <span style="color: firebrick;"> do not </span> need to use `git`
+
++ this university! 
+  + Reach students across the world `r fa("globe", fill='dodgerblue')`
+
++ this semester!
+  + Re-work course material based on what worked well `r fa("recycle", fill='forestgreen')`
+
+<br> 
+
+<center><font size="10"> https://classroom.github.com/ </font></center>
+
+
+
+
+
+
+## Thank you 
+
+<br> 
+
+<br> 
+
+`r fa("sack-dollar", fill='forestgreen')` University of South Carolina, NSF
+
+`r fa("user", fill='purple')` https://taddallas.github.io 
+
+`r fa("twitter", fill='dodgerblue')` @taddallas 
+
+`r fa("github", fill='black')` https://github.com/taddallas 
+
+
+
+
+
+
+
