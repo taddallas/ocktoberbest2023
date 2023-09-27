@@ -58,29 +58,12 @@ library(fontawesome)
 
 
 
-
-
-
-## How does GitHub Classroom help me teach? 
-
-+ I try to be [incredibly open with my materials and approach](https://ecoinformatix.github.io/syllabus/)
-
-+ For programming classes, I need to:
-  + teach <span style="color: forestgreen;"> proper version control </span>
-  + see where students <span style="color: firebrick;"> struggle </span>
-  + provide <span style="color: dodgerblue;"> timely feedback </span>
-
-
-
-
-
-
-
 ## How can GitHub be used in the classroom? 
 
-+ All course material, including the website itself, on GitHub
++ All course material, including the [website itself]((https://ecoinformatix.github.io/syllabus/)), is on GitHub
 + Students (and anyone) has access
 + Allows for posting of code, text, video, etc. etc. 
++ Is basically a free Learning Mgmt System (but not Blackboard)
 + ADA compliant (output lecture and code in multiple formats)
 
 
@@ -91,7 +74,26 @@ library(fontawesome)
 
 
 
-## What issues does the use of GitHub address? 
+
+## How does GitHub Classroom help me teach? 
+
+
+<div class="columns-2">
+  ![](figs/professortocat.png){width="100%"}
+
+  + teach <span style="color: forestgreen;"> proper version control </span>
+  + see where students <span style="color: firebrick;"> struggle </span>
+  + provide <span style="color: dodgerblue;"> timely feedback </span>
+  
+</div>
+
+
+
+
+
+
+
+## What issues does the use of GitHub Classroom address? 
 
 + A history of your courses taught
 + All your materials in one place
@@ -99,6 +101,16 @@ library(fontawesome)
 + Track student progress 
 + Provide immediate automated feedback
 + Gives instructor a look at muddy points 
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -188,19 +200,6 @@ knitr::include_graphics("figs/identifyPointsOfConfusion.png")
 
 
 
----
-
-### https://github.com/ecoinformatix/ecoinformatix.github.io
-
-
-```{r, echo=FALSE, out.width="70%", fig.align="center"}
-knitr::include_graphics("figs/codeForWebsite.png")
-```
-
-
-
-
-
 
 
 
@@ -212,16 +211,34 @@ knitr::include_graphics("figs/codeForWebsite.png")
 + coding courses!
   + Students <span style="color: firebrick;"> do not </span> need to use `git`
 
++ this semester!
+  + Re-work course material based on what worked well `r fa("recycle", fill='forestgreen')`
+
 + this university! 
   + Reach students across the world `r fa("globe", fill='dodgerblue')`
 
-+ this semester!
-  + Re-work course material based on what worked well `r fa("recycle", fill='forestgreen')`
 
 <br> 
 
 <center><font size="10"> https://classroom.github.com/ </font></center>
 
+
+
+
+
+
+
+---
+
+<center>
+### https://ecoinformatix.github.io 
+</center>
+```{r, echo=FALSE, out.width="65%", fig.align="center"}
+knitr::include_graphics("figs/codeForWebsite.png")
+```
+<center>
+### https://github.com/ecoinformatix/ecoinformatix.github.io
+</center>
 
 
 
@@ -242,7 +259,8 @@ knitr::include_graphics("figs/codeForWebsite.png")
 
 <br> 
 
-<center> `r fa("person-chalkboard", fill='hotpink')` https://github.com/taddallas/ocktoberbest2023 </center>
+<center> `r fa("person-chalkboard", fill='hotpink')`  https://github.com/taddallas/ocktoberbest2023 </center>
+<center> `r fa("computer", fill='hotpink')`  https://taddallas.github.io/ocktoberbest2023/ </center>
 
 
 
