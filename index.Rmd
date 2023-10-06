@@ -58,9 +58,9 @@ library(fontawesome)
 
 
 
-## How can GitHub be used in the classroom? 
+## GitHub as a teaching tool? 
 
-+ All course material, including the [website itself]((https://ecoinformatix.github.io/syllabus/)), is on GitHub
++ All course material, including the [website itself](https://ecoinformatix.github.io/syllabus/), is on GitHub
 + Students (and anyone) has access
 + Allows for posting of code, text, video, etc. etc. 
 + Is basically a free Learning Mgmt System (but not Blackboard)
@@ -75,11 +75,13 @@ library(fontawesome)
 
 
 
-## How does GitHub Classroom help me teach? 
+## How does GitHub Classroom help? 
 
 
 <div class="columns-2">
   ![](figs/professortocat.png){width="100%"}
+
+<br>
 
   + teach <span style="color: forestgreen;"> proper version control </span>
   + see where students <span style="color: firebrick;"> struggle </span>
@@ -95,12 +97,12 @@ library(fontawesome)
 
 ## What issues does the use of GitHub Classroom address? 
 
-+ A history of your courses taught
-+ All your materials in one place
-+ Clear deadlines 
-+ Track student progress 
-+ Provide immediate automated feedback
-+ Gives instructor a look at muddy points 
++ A <span style="color: brown;"> history </span> of your courses taught
++ All your materials <span style="color: forestgreen;"> in one place  </span>
++ Clear <span style="color: purple;"> deadlines </span>
++ Track student <span style="color: dodgerblue;"> progress </span>
++ Provide immediate <span style="color: red;"> automated feedback </span>
++ Gives instructor a look at `muddy points` 
 
 
 
